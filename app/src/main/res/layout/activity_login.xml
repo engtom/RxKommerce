@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edtLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edt_login_hint"
+        android:layout_below="@id/imgLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edt_password_hint"
+        android:inputType="textPassword"
+        android:layout_below="@id/edtLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/edtPassword"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sign_up"
+        android:textSize="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btnLogin"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/btnForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_forgot_password"
+        android:textSize="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/btnSignUp"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

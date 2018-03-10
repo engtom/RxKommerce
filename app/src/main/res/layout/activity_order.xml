@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewOrder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9">
+
+    </android.support.v7.widget.RecyclerView>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_below="@+id/recyclerViewOrder"
+        android:background="@android:color/darker_gray"
+        android:padding="5dp"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_total_price"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/txtRs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txtTotal"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/txtTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_price"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/txtRs"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/btnBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_buy"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@android:color/holo_red_light"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

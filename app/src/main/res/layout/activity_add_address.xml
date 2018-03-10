@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edtZipCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_zip_code"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/edtStreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_street"
+            android:layout_below="@id/edtZipCode"/>
+
+        <EditText
+            android:id="@+id/edtNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_number"
+            android:layout_below="@id/edtStreet"/>
+
+        <EditText
+            android:id="@+id/edtComplement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_complement"
+            android:layout_below="@id/edtNumber"/>
+
+        <EditText
+            android:id="@+id/edtNeighborhood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_neighborhood"
+            android:layout_below="@id/edtComplement"/>
+
+        <EditText
+            android:id="@+id/edtCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_city"
+            android:layout_below="@id/edtNeighborhood"/>
+
+        <EditText
+            android:id="@+id/edtState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edt_state"
+            android:layout_below="@id/edtCity"/>
+
+        <Button
+            android:id="@+id/btnAddAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_add_address"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_light"
+            android:layout_below="@id/edtState"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</ScrollView>

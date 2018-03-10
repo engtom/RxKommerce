@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/rvSummary"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>-->
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_below="@id/txtDescription"/>
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_total_price"
+        android:textStyle="bold"
+        android:layout_below="@id/divider"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/txtTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:layout_below="@id/divider"
+        android:layout_toRightOf="@id/txtTotal"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/txtNeedChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_need_change"
+        android:textStyle="bold"
+        android:layout_below="@id/txtTotal"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edtCash"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtNeedChange"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/button_border"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="8"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/txtNoChangeNeeded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_no_change_needed"
+        android:textSize="9dp"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:layout_below="@id/edtCash"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btnOrder"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/btn_order"-->
+        <!--android:textSize="12sp"-->
+        <!--android:background="@android:color/holo_red_light"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:layout_below="@id/txtNoChangeNeeded"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="20dp"/>-->
+
+</RelativeLayout>

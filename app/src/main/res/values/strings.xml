@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">RxKommerce</string>
+
+    <!-- Login Activity -->
+    <string name="edt_login_hint">E-mail</string>
+    <string name="edt_password_hint">Password</string>
+    <string name="btn_login">Enter</string>
+    <string name="btn_forgot_password">Forgot password</string>
+
+    <!-- SignUp Activity -->
+    <string name="edt_name">Name</string>
+    <string name="edt_email">E-mail</string>
+    <string name="edt_gender">Gender</string>
+    <string name="edt_confirm_password">Confirm password</string>
+    <string name="btn_sign_up">Sign up</string>
+
+    <!-- Stores Activity -->
+    <string name="activity_stores_title">Choose the store</string>
+
+    <!-- Order Activity -->
+    <string name="activity_order_title">Select the products</string>
+    <string name="txt_total_price">Total:</string>
+    <string name="txt_price">00,00</string>
+    <string name="txt_product_name">Product Name</string>
+    <string name="btn_buy">Order</string>
+
+    <!-- Order summary Dialog -->
+    <string name="txt_need_change">Do yout need any change?</string>
+    <string name="txt_no_change_needed">*Only fill up the field if you need change</string>
+    <string name="btn_order">Finish</string>
+
+    <!-- Addresses Activity -->
+    <string name="activity_addresses_title">Select the shipping address</string>
+
+    <!-- Add Address Activity -->
+    <string name="activity_add_address_title">New address</string>
+    <string name="edt_zip_code">Zip code</string>
+    <string name="edt_street">Street</string>
+    <string name="edt_number">Number</string>
+    <string name="edt_complement">Complement</string>
+    <string name="edt_neighborhood">Neighbor</string>
+    <string name="edt_city">City</string>
+    <string name="edt_state">State</string>
+    <string name="btn_add_address">Add</string>
+
+    <!-- Order Summary Activity -->
+    <string name="activity_order_summary_title">Order Summary</string>
+    <string name="txt_produtcts">Products</string>
+    <string name="txt_delivery_address">Shipping address</string>
+
+</resources>

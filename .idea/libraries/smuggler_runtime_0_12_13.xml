@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="smuggler-runtime-0.12.13">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/smuggler-runtime-0.12.13.aar/de033af81f465e66d05ded8a35695555/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/smuggler-runtime-0.12.13.aar/de033af81f465e66d05ded8a35695555/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.mironov.smuggler/smuggler-runtime/0.12.13/2e9e979eef730608cc71564c278f0e2fb5bf0c7/smuggler-runtime-0.12.13-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
