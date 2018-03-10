@@ -6,7 +6,7 @@ package br.com.wale.getwater.util
 
 object Constants{
 
-    val API_URL = "http://api.dev.cubolojas.com/"
+    val API_URL = "YOUR ADDRESS HERE"
 
     val SHARED_PREFERENCES = "shared_preferences"
     val PREF_ACCESS_TOKEN = "access_token"
